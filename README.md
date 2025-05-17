@@ -5,17 +5,27 @@ This project implements a computer vision system that detects and classifies roa
 
 ### Features
 -Real-time detection of road damage in images 
+
 -Classification of damage types (potholes, cracks)
+
 -Severity assessment based on confidence scores
+
 -Color-coded bounding boxes indicating damage severity
+
 -Interactive web interface for uploading and analyzing images
 
 ### Technologies Used
+
 -Python
+
 -YOLO (YOLOv8) for object detection
+
 -OpenCV for image processing and visualization
+
 -Gradio for creating the interactive web interface
+
 -PIL (Python Imaging Library) for image handling
+
 -NumPy for numerical operations
 
 ### Project Structure
@@ -34,7 +44,10 @@ The project is organized as a Jupyter notebook with the following components:
 
 ### Model Details
 The system uses a YOLOv8 model trained on the Road Damage Detector dataset. The model can detect different types of road damage with the following severity indicators:
+
 -Red boxes: High-confidence pothole detection (severe damage)
+
 -Orange boxes: Medium-confidence pothole detection (moderate damage)
+
 -Yellow boxes: Low-confidence pothole detection or other damage types (minor damage)
 
