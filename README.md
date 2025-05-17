@@ -21,11 +21,15 @@ This project implements a computer vision system that detects and classifies roa
 ### Project Structure
 The project is organized as a Jupyter notebook with the following components:
 1.Setup and Dependencies: Installation of required libraries
+
 2.Model Loading: Loading the pre-trained YOLO model for road damage detection
+
 3.Visualization Functions:
 -Drawing bounding boxes with color coding based on damage type and severity
 -Generating detailed damage reports
+
 4.Prediction Function: Processing images and detecting road damage
+
 5.Gradio Interface: Creating an interactive web application for easy usage
 
 ### Model Details
